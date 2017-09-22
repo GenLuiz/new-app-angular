@@ -12,7 +12,6 @@ export class UserComponent implements OnInit {
   showDetails = false;
   counter =[];
   details:string = 'You shall not cast';
-  constructor() { }
 
   ngOnInit() {
   }
@@ -23,7 +22,7 @@ export class UserComponent implements OnInit {
 
   showMore(){
     this.showDetails = !this.showDetails;
-    // this.counter.push(this.counter.length);
+    //this.counter.push(this.counter.length);
     this.counter.push(new Date());
   }
 
