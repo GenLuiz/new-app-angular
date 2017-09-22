@@ -1,5 +1,5 @@
+// this is a test component, to run test just type in command line(terminal) 'ng test'
 import { TestBed, async } from '@angular/core/testing';
-
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {

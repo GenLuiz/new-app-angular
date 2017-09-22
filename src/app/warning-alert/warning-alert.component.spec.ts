@@ -1,5 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+// this is a test file, don't worry, the application will run fine, even if there are any test that dont pass.
+// to see if the warning module is working fine or if you want do make a TDD just run the application as  'ng test'
+// on command line(terminal)
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { WarningAlertComponent } from './warning-alert.component';
 
 describe('WarningAlertComponent', () => {
