@@ -8,3 +8,15 @@
     <button class="btn btn-primary" [disabled]="userName === ''" (click)="onResetUser()">Reset User</button>
   </div>
 </div>
+<hr>
+<div class="row">
+  <div class="col-md-6">
+    <button class="btn btn-info" (click)="showMore()">Details</button>
+    <p *ngIf="showDetails">{{details}}</p>
+    <div *ngFor="let pos of counter; let i = index" 
+     [ngClass]="{'white-text': i >= 5}"
+     [ngStyle]="{backgroundColor: i >= 5 ? '#90CAF9' : 'transparent'}">
+      {{pos}}
+    </div>
+  </div>
+</div>

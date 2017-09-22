@@ -9,7 +9,9 @@ export class UserComponent implements OnInit {
 
   allowSave = false;
   userName: string = '';
-
+  showDetails = false;
+  counter =[];
+  details:string = 'You shall not cast';
   constructor() { }
 
   ngOnInit() {
@@ -17,5 +19,12 @@ export class UserComponent implements OnInit {
 
   onResetUser(){
      this.userName='';
-   }
+  }
+
+  showMore(){
+    this.showDetails = !this.showDetails;
+    // this.counter.push(this.counter.length);
+    this.counter.push(new Date());
+  }
+
 }
