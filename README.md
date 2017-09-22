@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Additional info
 This is just an example of some functions in angular, like directives, databind, string interpolation, property bind, components, component-selectors and two-way databind.
-there are further information on app-warning-alert how basically things works
+There are further information on app-warning-alert how basically things works.
 
 ## Development server
 
